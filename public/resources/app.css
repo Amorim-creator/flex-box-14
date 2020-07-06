@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.pai{
+   width: 950px;
+   height: 600px;
+   margin: 10px auto;
+   background-color: blueviolet;
+   display: flex;
+   align-items: center;
+   
+   
+}
+
+.coluna{
+
+   width: 310px;
+   height: 300px;
+   border: 1px solid #fff;
+   background-color: #ff0000;
+   
+}
+.coluna:nth-child(2){
+
+    width: 650px;
+    height: 300px;
+    border: 1px solid #fff;
+    background-color: aqua;
+}
+
